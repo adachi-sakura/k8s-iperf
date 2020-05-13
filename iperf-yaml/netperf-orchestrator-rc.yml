@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: orchestrator
-        image: 192.168.2.105:5000/netperf
+        image: endianogino/netperf:1.1
         imagePullPolicy: IfNotPresent
         args:
         - --mode=orchestrator
